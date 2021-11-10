@@ -1,0 +1,7 @@
+---
+- name: copy nginx conf
+  template: 
+    src: templates/conf.d/webserver.conf
+    dest: /etc/nginx/conf.d/webserver.conf
+    force: yes
+  become: yes

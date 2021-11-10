@@ -1,0 +1,7 @@
+---
+- name: copy nginx.conf
+  template:
+    src: "{{ srccopy }}"
+    dest: "{{ srcdest }}"
+    force: yes
+  become: yes

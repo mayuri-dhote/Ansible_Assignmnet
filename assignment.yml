@@ -1,0 +1,5 @@
+---
+- name: nginx website
+  hosts: server
+  roles: 
+    - website

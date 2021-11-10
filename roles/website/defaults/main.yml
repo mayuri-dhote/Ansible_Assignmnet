@@ -1,0 +1,4 @@
+---
+# defaults file for roles/website
+srccopy: templates/nginx.conf
+srcdest: /etc/nginx/nginx.conf
